@@ -1,5 +1,11 @@
 {
+  "name": "eugenie-backend",
+  "version": "1.0.0",
   "packageManager": "yarn@4.12.0",
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "nodemon ./bin/www"
+  },
   "dependencies": {
     "bcrypt": "^6.0.0",
     "cors": "^2.8.5",
