@@ -2,3 +2,6 @@ node_modules/
 .next/
 .env.local
 *.log
+
+# NPM (on utilise Yarn maintenant)
+package-lock.json
